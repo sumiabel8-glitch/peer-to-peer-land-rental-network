@@ -5,10 +5,15 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.condition-validator]
+path = 'contracts/condition-validator.clar'
+clarity_version = 3
+epoch = 'latest'
+
 [contracts.rental-token]
 path = 'contracts/rental-token.clar'
 clarity_version = 3
-epoch = 'latest'
+epoch = '3.2'
 [repl.analysis]
 passes = ['check_checker']
 
